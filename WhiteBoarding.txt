@@ -1,0 +1,28 @@
+Question: Write inputs and outputs for the Pythagorean Triplet problem.
+-Pythagorean theorem- is the result of a right anged triangle.
+a^2 + b^2 = C^2
+
+Try to give yourself a few different cases.
+length has to be positive
+a negative side will still give correct answer since its squared???
+
+ANSWER
+Inputs:
+
+three integers a, b, c representing the sides of a right-angled triangle, where a and b are the shorter sides and c is the hypotenuse (the side opposite the right angle)
+Outputs:
+
+Boolean value (True or False) indicating whether the input integers form a Pythagorean triplet.
+Example:
+Inputs: a=3, b=4, c=5
+Output: True (3^2 + 4^2 = 5^2)
+
+Inputs:
+
+an integer n representing the upper limit for the search of Pythagorean Triplet
+Outputs:
+
+List of Pythagorean triplets found under upper limit n.
+Example:
+Inputs: n=20
+Output: [(3, 4, 5), (5, 12, 13), (8, 15, 17), (7, 24, 25), (12, 16, 20)
